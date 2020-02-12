@@ -1,0 +1,110 @@
+name: travel_homepage_moduel
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter_custom_clippers: ^1.1.0
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/images/fb.png
+    - assets/images/background_img.jpeg
+    - assets/images/sunset_background.jpeg
+    - assets/images/cars.png
+    - assets/images/flight.png
+    - assets/images/hotel.png
+    - assets/images/goaBeach.jpg
+    - assets/images/sydney.jpeg
+    - assets/images/london.jpg
+    - assets/images/istanbul.jpeg
+    - assets/images/bangkok.jpg
+    - assets/images/wifi.png
+    - assets/images/indigo_flight.jpg
+    - assets/images/photos1
+    - assets/images/master_card.jpeg
+    - assets/images/man_image.jpg
+    - assets/images/atm_card1.jpeg
+    - assets/images/atm_card2.jpeg
+    - assets/images/atm_card3.jpeg
+    - assets/images/indigo_flight.png
+    - assets/images/filter_icon.png
+    - assets/images/recomn_img.jpeg
+    - assets/images/getRadyForSummer.jpg
+    - assets/images/hill.jpeg
+    - assets/images/Explore1.jpg
+    - assets/images/exploreOyoHotels2.jpeg
+    - assets/images/mans_img.jpeg
+    - assets/images/wi_fi.png
+    - assets/images/car_parkingicon.png
+    - assets/images/breakfast.png
+    - assets/images/tv.png
+    - assets/images/exploreOyoHotels1.jpeg
+    - assets/images/2.png
+    - assets/images/Untitled-1.png
+    - assets/images/Untitled-3.png
+    - assets/images/go-air.jpeg
+    - assets/images/spice_jet.jpeg
+    - assets/images/air_india.jpg
+    - assets/images/swiming_img.jpg
+    - assets/images/powered_by.png
+    - assets/images/logo.png
+
+
+  fonts:
+      - family: Raleway
+        fonts:
+          - asset: fonts/Raleway-Bold.ttf
+          - asset: fonts/Raleway-Regular.ttf
+            weight: 700
+      - family: Roboto Bold
+        fonts:
+          - asset: fonts/Roboto-Bold.ttf
+
+      - family: Roboto Medium
+        fonts:
+          - asset: fonts/Roboto-Medium.ttf
+
+      - family: Roboto Regular
+        fonts:
+          - asset: fonts/Roboto-Regular.ttf
+
+      - family: Roboto Thin
+
+        fonts:
+          - asset: fonts/Roboto-Thin.ttf
+            weight: 700
